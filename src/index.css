@@ -1,0 +1,94 @@
+body {
+  margin: 200px;
+  margin-top: 150px;
+  max-width: 1000x;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+li {
+  margin: 15px 0;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+h1 {
+  font-size: 45px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+p {
+  font-size: 18px;
+}
+
+#green {
+  background-color: #D0F0C0;
+}
+
+#green:hover {
+  background-color: #C3E3B3;
+}
+
+#yellow {
+  background-color: #FFFCBB;
+}
+
+#yellow:hover {
+  background-color: #F2EFAE;
+}
+
+#blue {
+  background-color: #C6E4EE;
+}
+
+#blue:hover {
+  background-color: #BDE0EB;
+}
+
+#red {
+  background-color: #ffcccb;
+}
+
+#red:hover {
+  background-color: #F2BFBE;
+}
+
+#purple {
+  background-color: #E8D4F0;
+}
+
+#purple:hover {
+  background-color: #DCC8E4;
+}
+
+.head {
+  box-sizing: border-box;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 1em;
+  margin-bottom: 2em;
+  background-color: rgb(192, 45, 26);
+  color: #fff;
+}
+
+#pic {
+  max-width: 200px;
+  float: left;
+  margin-right: 50px;
+}
