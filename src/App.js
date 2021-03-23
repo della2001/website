@@ -8,7 +8,8 @@ import Header from './Header'
 function App() {
   return (
     <div>
-      <Main/>
+      <p>UNDER CONSTRUCTION :)
+      Contact me at dellanathanias@gmail.com!</p>
     </div>
 
   );

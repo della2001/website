@@ -5,17 +5,21 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import { faGithub } from '@fortawesome/free-brands-svg-icons'
 import { faFileAlt } from '@fortawesome/free-solid-svg-icons'
-
+import { Navbar, Nav, NavItem, NavDropdown, MenuItem, Form, Button, FormControl } from 'react-bootstrap';
 import Resume from './Resume.pdf'
 import Picture from './Picture.JPG'
-import './main.css';
+import './index.css';
 
 
 
 class Main extends Component {
     render() {
         return (
+            <div>
+     
+            
             <div class="text">
+                            
                 <img id="pic" src={Picture} alt="Smiley Della!" />
                 <h1>Hi! I'm Della. 👋</h1>
                 <p>I'm a developer and a student studying Computer Science + Economics at <a href="" target="_blank"><span id="blue">Duke University</span></a>.</p>
@@ -67,6 +71,7 @@ class Main extends Component {
                 </p>
                 <br></br><br></br>
                 <h2>🚧 full website under construction 🚧</h2>
+            </div>
             </div>
             );
     }

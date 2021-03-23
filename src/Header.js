@@ -7,7 +7,7 @@ import './main.css';
 class Header extends Component {
     render() {
         return (
-            <div class="head">
+            <div class="header">
                 <p>ABOUT</p>
                 <p>RESUME</p>
                 <p>EXPERIENCE</p>
